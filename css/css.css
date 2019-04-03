@@ -6,3 +6,24 @@
     width: 19rem;
     height: 25rem;
 }
+
+.cardSameHeight {
+    height: calc(100% - 1.5rem);
+}
+
+.card.scaleAnim {
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.6);
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card.scaleAnim:hover {
+    transform: scale(1.1);
+}
+
+@media only screen and (min-width: 768px) {
+    .coolCards {
+        margin-top: -100px;
+        height: calc(100% + 100px);
+    }
+}
