@@ -14,35 +14,51 @@
     <link rel="stylesheet" href="css/css.css" />
   </head>
   <body>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-fixed">
-          <div class="container">
-            <a class="navbar-brand" href="certificacoes.html">ETFOR</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Clientes</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Fases de Produçao</a>
-              </li>
-              <li class="nav-item active">
-                  <a class="nav-link" href="certificacoes.html">Certificações & Referências <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contactos</a>
-                  </li> 
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
-          </div>
-          </div>
-        </nav>
+        <nav class="navbar navbar-expand-xl navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand bg-danger pr-5 pl-5 rounded-pill font-weight-bold" style="letter-spacing: 1px;" href="index.html">ETFOR</a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div
+                    class="collapse navbar-collapse"
+                    id="navbarSupportedContent"
+                >
+                    <ul class="navbar-nav mr-auto">
+                            <a class="nav-link" href="#">
+                                Clientes
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Fases de Produçao</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="certificacoes.html">Certificações & Referências <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactos.html">
+                                Contactos
+                            </a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-xl-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
+                            <button class="btn btn-outline-light my-2 my-sm-0"type="submit">
+                                Search
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
 
         <div class="container content">
           <div class="row">
@@ -130,7 +146,7 @@
           </div>
           <div class="row">
             <div class="col-md mt-md-5 text-success">
-              ............................................................................................................................................................................................................................................................................
+              <hr>
             </div>
           </div>
           <div class="row">
@@ -171,13 +187,45 @@
             </div>
           </footer>
         </div>
-
-
-      
+        <footer class="mt-auto alert-secondary mt-5">
+            <div class="container">
+                <div class="row py-4">
+                    <div class="col-md-7 pb-2">
+                        <a class="text-dark" href="#"
+                            >Política de Privacidade</a
+                        >
+                        |
+                        <a class="text-dark" href="#">Sobre a Etfor</a>
+                        |
+                        <a class="text-dark" href="#">Produtos & Serviços</a>
+                        |
+                        <a class="text-dark" href="#">Contactos</a>
+                        |
+                        <a class="text-dark" href="#">Imprimir página</a>
+                        |
+                        <a class="text-dark" href="#">Sugerir a um amigo</a>
+                    </div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-4">
+                        <div class="row text-dark">
+                            Copyright © 2009 ETFOR - Empresa Têxtil. Todos os
+                            direitos reservados
+                        </div>
+                        <div class="row pt-3">
+                            <img
+                                src="./imagens/logo.png"
+                                class="img-fluid"
+                                alt="Responsive image"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>~
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   </body>
 </html>
